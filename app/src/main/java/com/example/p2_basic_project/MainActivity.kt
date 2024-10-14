@@ -52,6 +52,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
         Text(text = "Login", style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold))
         Text(text = "Ini adalah halaman Login", style = TextStyle(fontSize = 15.sp))
         Text(text = "Nama", style = TextStyle(fontSize = 15.sp))
+        Text(text = "Abra Yudhistira Rachmadi", style = TextStyle(fontSize = 15.sp, color = Color.Red))
     }
 }
 
