@@ -54,6 +54,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
         Text(text = "Nama", style = TextStyle(fontSize = 15.sp))
         Text(text = "Abra Yudhistira Rachmadi", style = TextStyle(fontSize = 15.sp, color = Color.Red))
         Text(text = "20220140102", style = TextStyle(fontSize = 50.sp))
+        Image(painter = painterResource(id = R.drawable.resourceabra), contentDescription = null)
     }
 }
 
